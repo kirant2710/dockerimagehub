@@ -2,9 +2,9 @@ name: CI/CD for Dockerized Flask App
 
 on:
   push:
-    branches: [ master ]
+    branches: [ cicd_test ]
   pull_request:
-    branches: [ master ]
+    branches: [ cicd_test ]
 
 jobs:
   # dockerbuild:
